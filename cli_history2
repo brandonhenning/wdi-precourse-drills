@@ -1,0 +1,18 @@
+  562  ls
+  563  touch install.sh
+  564  mkdir app
+  565  cd app
+  566  mkdir bin
+  567  cd ..
+  568  mv install.sh app/bin
+  569  cd app/bin
+  570  ls
+  571  cp install.sh install.sh.backup
+  572  ls
+  573  cd ..
+  574  rm -rf app/bin/*
+  575  rm -r bin
+  576  ls
+  577  cd ..
+  578  rm -r app
+  579  history | tail -n 18 > cli_history

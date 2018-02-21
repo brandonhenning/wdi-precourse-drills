@@ -1,0 +1,12 @@
+  517  cd ..
+  518  ls
+  519  cd notes
+  520  ls
+  521  rm -r notes
+  522  ls
+  523  mv cli-2.md cli.md
+  524  ls
+  525  cd ..
+  526  rm -r notes
+  527  ls
+  528  history | tail -n 12 > cli_history

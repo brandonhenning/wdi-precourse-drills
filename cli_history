@@ -1,12 +1,12 @@
-  517  cd ..
-  518  ls
-  519  cd notes
-  520  ls
-  521  rm -r notes
-  522  ls
-  523  mv cli-2.md cli.md
-  524  ls
-  525  cd ..
-  526  rm -r notes
-  527  ls
-  528  history | tail -n 12 > cli_history
+  507  touch index.html
+  508  mkdir pages
+  509  touch pages/about.html
+  510  mv pages/about.html ~/Desktop/site
+  511  ls /pages
+  512  ls ~/Desktop/site/pages
+  513  rm -r ~/Desktop/site/pages
+  514  ls
+  515  cd ..
+  516  ls
+  517  rm -r site
+  518  history | tail -n 12 > cli_history

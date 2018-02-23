@@ -1,0 +1,12 @@
+  541  cat cli.md
+  542  mkdir notes
+  543  cd notes
+  544  mv cli.md .
+  545  mv ~/Desktop/cli.md .
+  546  cp cli.md cli-2.md
+  547  ls
+  548  rm cli.md
+  549  mv cli-2.md cli.md
+  550  cd ..
+  551  rm -r notes
+  552  history | tail -n 12 > cli_history

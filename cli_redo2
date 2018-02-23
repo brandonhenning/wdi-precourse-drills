@@ -1,0 +1,12 @@
+  556  mkdir site
+  557  cd site
+  558  touch index.html
+  559  mkdir pages
+  560  vim ~/Desktop/site/pages/about.html
+  561  mv ~/Desktop/site/pages/about.html .
+  562  ls ~/Dekstop/site/pages
+  563  ls ~/Desktop/site/pages
+  564  rm -r pages
+  565  cd ..
+  566  rm -r site
+  567  history | tail -n 12 > cli_history

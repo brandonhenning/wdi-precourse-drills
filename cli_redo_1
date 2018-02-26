@@ -1,3 +1,5 @@
+  539  touch cli.md
+  540  vim cli.md
   541  cat cli.md
   542  mkdir notes
   543  cd notes
